@@ -1,0 +1,37 @@
+site_name: Docs
+
+# Copyright
+copyright: Copyright &copy; 2022 - 2023 Martin Florek
+
+# Configuration
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.png
+  features:
+    - navigation.footer
+    - navigation.tabs
+
+# Page tree
+nav:
+  - Home: index.md
+  - ChatGPT:
+      - User Guide: new_page.md
