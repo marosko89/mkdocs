@@ -1,4 +1,12 @@
 site_name: Docs
+site_url: https://github.com/marosko89/mkdocs
+site_description: Markdown env.
+site_author: Martin Florek
+
+# Repository
+repo_name: marosko89/mkdocs
+repo_url: https://github.com/marosko89/mkdocs
+edit_uri: ""
 
 # Copyright
 copyright: Copyright &copy; 2022 - 2023 Martin Florek
@@ -6,6 +14,7 @@ copyright: Copyright &copy; 2022 - 2023 Martin Florek
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -29,9 +38,20 @@ theme:
   features:
     - navigation.footer
     - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+
+# # Plugins
+# plugins:
+#   - search:
+#       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+extra:
+  version:
+    provider: mike
 
 # Page tree
 nav:
   - Home: index.md
   - ChatGPT:
-      - User Guide: new_page.md
+      - User Guide: q.md

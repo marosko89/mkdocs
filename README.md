@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/marosko89/mkdocs"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
   <br>
   MkDocs for Material
   <br>
@@ -29,6 +29,7 @@
 
 * Using Virtual env `pipenv`
    * `pipenv lock`
+* MkDocs theme Material with setup
 
 
 ## How To Use
@@ -48,7 +49,7 @@ $ pipenv sync --dev
 $ pipenv shell
 
 # Run the app
-$ mkdocs
+$ mkdocs serve
 
 # Open up http://127.0.0.1:8000/ in your browser
 ```

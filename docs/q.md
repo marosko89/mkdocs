@@ -30,3 +30,17 @@ The best choice for a programmer will depend on many factors, including their pe
 - Eclipse: A free, open-source IDE that is widely used for Java development, but also supports other programming languages.
 
 These are just a few examples, and there are many other options available. The best choice for a programmer will depend on their specific needs and preferences.
+
+## Best programmer
+### Q: How improve your skills as programmer?
+
+Improving as a programmer requires a combination of hands-on practice, staying current with new technologies, and continuously learning from more experienced peers and mentors. Some ways to improve include:
+
+1. Practicing by working on personal projects or contributing to open-source projects.
+2.Participating in online coding challenges and hackathons.
+3. Reading code written by experienced developers, both in your language of choice and in others.
+4. Learning new technologies and programming languages relevant to your field.
+5. Staying up-to-date with industry developments and advancements by reading blogs, attending conferences and workshops, or following influencers on social media.
+6. Collaborating with other developers on projects, either in-person or online.
+7. Seeking feedback and constructive criticism on your code.
+8. Mentoring others or being mentored by a more experienced developer.
